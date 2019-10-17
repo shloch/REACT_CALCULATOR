@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 
-class DIsplay extends Component {
-  const { result } = this.props;
-render() {
-  return (
-    <div>
-
-    </div>
-  )
+class Display extends Component {
+  render() {
+    return (
+      <div>
+        {this.props.calculationResult}
+      </div>
+    )
+  }
 }
-}
 
-export default DIsplay
+export default Display
