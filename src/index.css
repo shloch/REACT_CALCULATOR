@@ -10,3 +10,21 @@ code {
   font-family:  "Courier New",
     monospace;
 }
+
+#root {
+  border: 1px sienna solid;
+  width: 700px;
+  margin: auto;
+}
+
+#app-component {
+  display: flex;
+}
+
+#display-component {
+  display: flex;
+  background-color: gray;
+}
+#buttonPanel-component {
+  display: flex;
+}
