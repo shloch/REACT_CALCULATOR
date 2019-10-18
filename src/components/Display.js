@@ -6,7 +6,7 @@ class Display extends Component {
   render() {
     return (
       <div id="display-component">
-        {this.props.calculationResult}
+        <div className="calculationResult">{this.props.calculationResult}</div>
       </div>
     )
   }

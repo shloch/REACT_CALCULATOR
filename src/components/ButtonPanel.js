@@ -6,7 +6,7 @@ class ButtonPanel extends Component {
     return (
       <div id="buttonPanel-component">
         <div id='group-1'>
-          <Button name='AC' />
+          <Button name='AC' color='' wide='' />
           <Button name='+/-' />
           <Button name='%' />
           <Button name='/' />
@@ -30,7 +30,7 @@ class ButtonPanel extends Component {
           <Button name='+' />
         </div>
         <div id='group-5'>
-          <Button name='0' />
+          <Button name='0' wide={true} />
           <Button name='.' />
           <Button name='=' />
         </div>
