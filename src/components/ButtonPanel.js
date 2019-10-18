@@ -4,7 +4,7 @@ import Button from './Button';
 class ButtonPanel extends Component {
   render() {
     return (
-      <div>
+      <div id="buttonPanel-component">
         <div id='group-1'>
           <Button name='AC' />
           <Button name='+/-' />

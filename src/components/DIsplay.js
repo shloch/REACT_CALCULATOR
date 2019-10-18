@@ -5,7 +5,7 @@ class Display extends Component {
 
   render() {
     return (
-      <div>
+      <div id="display-component">
         {this.props.calculationResult}
       </div>
     )

@@ -5,7 +5,7 @@ import ButtonPanel from './ButtonPanel';
 class Apps extends Component {
   render() {
     return (
-      <div id='appID'>
+      <div id='app-component'>
         <Display />
         <ButtonPanel />
       </div>
