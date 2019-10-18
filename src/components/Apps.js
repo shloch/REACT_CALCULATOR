@@ -6,7 +6,7 @@ class Apps extends Component {
   render() {
     return (
       <div id='appID'>
-        <Display calculationResult='0' />
+        <Display />
         <ButtonPanel />
       </div>
     )
