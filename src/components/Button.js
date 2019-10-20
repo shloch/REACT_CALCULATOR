@@ -1,22 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-let defaultBgColor = {
-  backgroundColor: 'orange'
-};
-
-
 class Button extends Component {
   render() {
     const wideStyle = (this.props.wide) ? 'wideStyle' : '';
-    let bgColor;
-    if (!this.props.color) {
-      bgColor = defaultBgColor;
-    } else {
-      bgColor = { backgroundColor: this.props.color };
-    }
     return (
-      <button className={`${wideStyle}`} id='button-component' style={bgColor}>
+      <button className={wideStyle} id='button-component' style={{ backgroundColor: this.props.color }}>
         {this.props.name}
       </button>
     )
@@ -24,8 +13,12 @@ class Button extends Component {
 }
 
 Button.propTypes = {
-  name: PropTypes.string
+  name: PropTypes.string,
+  color: PropTypes.string
+};
 
+Button.defaultProps = {
+  color: 'orange'
 };
 
 export default Button
