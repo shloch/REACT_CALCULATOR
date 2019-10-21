@@ -19,12 +19,44 @@ code {
 
 #app-component {
   display: flex;
+  flex-direction: column;
 }
 
 #display-component {
   display: flex;
   background-color: gray;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  padding : 5px;
+  text-align: right;
 }
-#buttonPanel-component {
+
+.calculationResult {
+  width:95%;
+}
+
+
+#buttonPanel-component div[id*="group"] {
   display: flex;
+  height: 100px;
+  flex-direction: row;
+}
+
+#button-component {
+  width: 25%;
+  font-size: 1.3em;
+}
+
+.calcButton {
+  width:100%;
+  height:100%;
+  color:black;
+  text-align: center;
+  border: 1px solid orange;
+}
+
+
+.wideStyle {
+  flex:2;
 }
