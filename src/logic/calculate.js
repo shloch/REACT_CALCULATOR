@@ -1,19 +1,40 @@
-var Calculator = (function () {
+import operate from './operate';
 
-  let mod = {};
-  mod.calculate = function (calcObj, button) {
-    let { total, next, operation } = calcObj;
-    if (button === '+/1') {
-      total *= -1;
-      next *= -1;
-    }
-    return { total, next, operation }
+const calculate = (obj, buttonName) => {
+  let { total, next, operation } = obj;
+  let operations = ['+', '-', 'x', '÷', '%'];
+  let numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
 
+  if (buttonName === '+/-') {
+    if (total !== null) total *= -1;
+    if (next !== null) next *= -1;
   }
 
-  return mod;
-})();
+  if (numbers.includes(buttonName)) {
+    if (total === null)
+      total = +buttonName;
+    else
+      next = +buttonName;
+    total = operate(total, next, operation);
+  }
 
-export {
-  Calculator,
-};
+  if (operations.includes(buttonName)) {
+    if (total !== null && next !== null)
+      operation = buttonName;
+    else
+      return { total, next, operation };
+  }
+
+  if (buttonName === '=') {
+    if (total !== null && next !== null && operation !== null) {
+      total = operate(total, next, operation);
+    }
+    next = null;
+    operation = null;
+    return { total, next, operation };
+  }
+
+  return { total, next, operation };
+}
+
+export default calculate;
