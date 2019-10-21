@@ -1,3 +1,10 @@
+<h1 align="center">Welcome to Weather Man 👋</h1>
+<p>
+  <a href="https://twitter.com/shloch" target="_blank">
+    <img alt="Twitter: shloch" src="https://img.shields.io/twitter/follow/shloch.svg?style=social" />
+  </a>
+</p>
+
 # REACT CALCULATOR
 
 Building a calculator using html,css and REACT JS
