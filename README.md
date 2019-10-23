@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Weather Man 👋</h1>
+<h1 align="center">REACT CALCULATOR 👋</h1>
 <p>
   <a href="https://twitter.com/shloch" target="_blank">
     <img alt="Twitter: shloch" src="https://img.shields.io/twitter/follow/shloch.svg?style=social" />
@@ -24,3 +24,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Live Demo
 https://react-calc2.herokuapp.com/
+
+![alt text](https://github.com/shloch/REACT_CALCULATOR/screenshot.png)

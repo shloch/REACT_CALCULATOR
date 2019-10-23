@@ -12,7 +12,7 @@ code {
 }
 
 #root {
-  border: 1px sienna solid;
+  
   width: 700px;
   margin: auto;
 }
@@ -59,4 +59,9 @@ code {
 
 .wideStyle {
   flex:2;
+}
+
+#buttom-page {
+  text-align: center;
+  font-size: 0.66em;
 }
