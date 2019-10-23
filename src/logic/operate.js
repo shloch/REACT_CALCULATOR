@@ -1,9 +1,9 @@
 import Big from 'big.js';
 
-export default function operate(numbernumber1, numbernumber2, operation) {
+export default function operate(numberOne, numberTwo, operation) {
   let total = '';
-  const number1 = Big(numbernumber1);
-  const number2 = Big(numbernumber2);
+  const number1 = Big(numberOne);
+  const number2 = Big(numberTwo);
   switch (operation) {
     case '+':
       total = number1.plus(number2).toString();
