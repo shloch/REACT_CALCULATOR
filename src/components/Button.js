@@ -3,10 +3,7 @@ import PropTypes from 'prop-types';
 
 class Button extends Component {
 
-  handleClick = (buttonName) => {
-    return this.props.clickHandler(buttonName);
 
-  }
   render() {
     const wideStyle = (this.props.wide) ? 'wideStyle' : '';
     return (

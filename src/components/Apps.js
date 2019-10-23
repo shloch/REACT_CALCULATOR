@@ -26,10 +26,12 @@ class Apps extends Component {
 
   render() {
     const { total, next } = this.state;
-    const display = total || next;
+    //const display = total || next;
+    const displayValue = total ? (next ? next.toString() : total.toString()) : '0';
+
     return (
       <div id='app-component'>
-        <Display calculationResult={display} />
+        <Display calculationResult={displayValue} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     )
