@@ -45,7 +45,7 @@ code {
 
 #button-component {
   width: 25%;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .calcButton {
@@ -64,4 +64,8 @@ code {
 #buttom-page {
   text-align: center;
   font-size: 0.66em;
+}
+
+.calculationResult {
+  font-size: 2.19em;
 }
