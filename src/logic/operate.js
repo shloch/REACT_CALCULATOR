@@ -11,7 +11,7 @@ export default function operate(numberOne, numberTwo, operation) {
     case 'x':
       return number1.times(number2).toString();
     case '/':
-      if (numberTwo === 0)
+      if (numberTwo === '0')
         alert(`Division by Zero unauthorized`);
       else
         return number1.div(number2).toString();

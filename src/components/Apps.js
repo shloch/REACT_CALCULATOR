@@ -12,7 +12,6 @@ class Apps extends Component {
       next: null,
       operation: null
     }
-    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = (buttonName) => {
@@ -26,7 +25,6 @@ class Apps extends Component {
 
   render() {
     const { total, next } = this.state;
-    //const display = total || next;
     const displayValue = total ? (next ? next.toString() : total.toString()) : '0';
 
     return (
