@@ -25,4 +25,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Live Demo
 https://react-calc2.herokuapp.com/
 
-![alt text](https://github.com/shloch/REACT_CALCULATOR/blob/milestone5/screenshot.png)
+![alt text](https://github.com/shloch/REACT_CALCULATOR/blob/milestone5/screenshot.gif)
