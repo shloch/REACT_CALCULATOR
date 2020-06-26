@@ -26,3 +26,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 https://react-calc2.herokuapp.com/
 
 ![alt text](https://github.com/shloch/REACT_CALCULATOR/blob/dev/screenshot.gif)
+
+### Future feature
+- add more books from API calls
+- add local storage
+- add book searching functionality and include auto-completion
+
+## Contributors
+
+### 👤 **SHEY Louis CHIA**
+
+- Github: [shloch](https://github.com/shloch)
+- Twitter: [@shloch](https://twitter.com/shloch)
+- Linkedin: [/in/shey-louis-chia](https://www.linkedin.com/in/shey-louis-chia)
+- Email: shloch2007@yahoo.fr
+
+## 👤 **Terver Aosu**
+- Terver Aosu _https://github.com/truetechcode_
