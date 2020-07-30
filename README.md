@@ -43,3 +43,10 @@ https://react-calc2.herokuapp.com/
 
 ## 👤 **Terver Aosu**
 - Terver Aosu _https://github.com/truetechcode_
+
+## Acknowledgements
+- https://reactjs.org/
+- https://www.theodinproject.com/
+- https://javascript.info/
+- https://nodejs.org/
+- https://www.heroku.com/
